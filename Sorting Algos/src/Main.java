@@ -37,6 +37,9 @@ public class Main {
             case 1:
                 new SelectionSort(arr, n);
                 break;
+            case 2:
+                new BubbleSort(arr, n);
+                break;
             case 8:
                 start();
                 break;

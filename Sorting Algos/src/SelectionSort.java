@@ -6,10 +6,10 @@ public class SelectionSort {
         this.arr= arr;
         this.n= n;
 
-        sort(this.arr, this.n);
+        sort();
     }
 
-    public void sort(int[] arr, int n){
+    public void sort(){
         for(int i=0; i<n; i++){
             int mini= i;
             for(int j=i; j<n; j++){
@@ -24,10 +24,10 @@ public class SelectionSort {
                 arr[mini]= temp;
             }
         }
-        print(arr, n);
+        print();
     }
 
-    public void print(int[] arr, int n){
+    public void print(){
         System.out.print("Selection Sort- ");
         for(int i=0; i<n; i++){
             System.out.print(arr[i]+" ");
