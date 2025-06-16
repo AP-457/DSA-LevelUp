@@ -40,6 +40,9 @@ public class Main {
             case 2:
                 new BubbleSort(arr, n);
                 break;
+            case 3:
+                new InsertionSort(arr,n);
+                break;
             case 8:
                 start();
                 break;
