@@ -43,6 +43,9 @@ public class Main {
             case 3:
                 new InsertionSort(arr,n);
                 break;
+            case 4:
+                new MergeSort(arr,n).print();
+                break;
             case 8:
                 start();
                 break;
