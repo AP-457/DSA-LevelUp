@@ -46,6 +46,9 @@ public class Main {
             case 4:
                 new MergeSort(arr,n).print();
                 break;
+            case 5:
+                new QuickSort(arr,n).print();
+                break;
             case 8:
                 start();
                 break;
