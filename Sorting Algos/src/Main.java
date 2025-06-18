@@ -52,9 +52,9 @@ public class Main {
             case 6:
                 new RecBubbleSort(arr, n).print();
                 break;
-//            case 7:
-//                new RecInsertionSort(arr, n);
-//                break;
+            case 7:
+                new RecInsertionSort(arr, n).print();
+                break;
             case 8:
                 start();
                 break;
