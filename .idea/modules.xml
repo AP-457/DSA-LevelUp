@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA-LevelUp.iml" filepath="$PROJECT_DIR$/.idea/DSA-LevelUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Easy/Easy.iml" filepath="$PROJECT_DIR$/Arrays/Easy/Easy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting Algos/Sorting Algos.iml" filepath="$PROJECT_DIR$/Sorting Algos/Sorting Algos.iml" />
     </modules>
   </component>
