@@ -20,6 +20,14 @@ public class MajorityElementII {
             }
         }
 
+        freq[0]= 0;
+        freq[1]= 0;
+
+        for(int i:nums){
+            if(cand[0]==i) freq[0]+=1;
+            else if(cand[1]==i) freq[1]+=1;
+        }
+
         if(freq[0]>nums.length/3) ans.add(cand[0]);
 
         if(freq[1]>nums.length/3) ans.add(cand[1]);
